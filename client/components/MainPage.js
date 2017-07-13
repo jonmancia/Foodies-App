@@ -84,7 +84,6 @@ class MainPage extends React.Component{
         }
         return Materialize.toast('You have favorited', 4000);
     }
-
     modal = () => {
        
          $('#modal1').modal('open');
